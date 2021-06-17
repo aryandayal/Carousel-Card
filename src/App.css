@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.magic-box {
+    border: 1px solid #999595;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 240px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation > div {
+    float: left;
+    background-color: #999595;
+}
+
+.left:hover {
+    font-weight: bold;
+}
+
+.right:hover {
+    font-weight: bold;
+}
+
+.title {
+    margin: 0 20px;
+}
+
+.left, .right {
+    cursor: pointer;
+}
+
+.content {
+    margin: 10px 0;
+
+   font-family: 'Courier New', Courier, monospace;
+}
